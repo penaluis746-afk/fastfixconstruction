@@ -1,7 +1,3 @@
-Got you—sounds like you want a simple HTML viewer: paste HTML on one side, see the result on the other.
-
-Here’s a minimal self-contained HTML viewer you can save as viewer.html and open in your browser:
-
 `html
 <!DOCTYPE html>
 <html lang="en">
