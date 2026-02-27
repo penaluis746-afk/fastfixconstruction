@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            background: white;
+        }
+
+        /* Default sizes */
+        p {
+            font-size: 18px;
+        }
+
+        h2 {
+            font-size: 26px;
+        }
+
+        /* Mobile sizes */
+        @media (max-width: 600px) {
+            p {
+                font-size: 16px;
+            }
+
+            h2 {
+                font-size: 22px;
+            }
+        }
+
+        /* Make ALL images fit perfectly */
+        img {
+            width: 100%;
+            height: auto;
+            object-fit: cover;
+            display: block;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- SECTION 1: HERO -->
+    <section class="hero">
+        <img src="https://raw.githubusercontent.com/penaluis746-afk/fastfixconstruction/refs/heads/main/copilot_image_1772078976595.jpeg" 
+             alt="MIM Construction Logo" width="100%" height="auto">
+    </section>
+
+<div style="text-align: center;">
+    <h2>Welcome to MIM Construction</h2>
+    <p>Clean. Modern. Professional. Built to last.</p>
+</div>
+
+<!-- ⭐ FULLY STRETCHED SLOW FADING SLIDESHOW -->
+<section class="fade-slider" style="
+    position: relative;
+    width: 100%;
+    height: 1050px;   /* Taller desktop height */
+    overflow: hidden;
+    margin-top: 20px;
+">
+
+    <img class="fade-slide" src="https://raw.githubusercontent.com/penaluis746-afk/fastfixconstruction/refs/heads/main/work1.jpeg"
+         style="width:100%; height:100%; object-fit:cover; position:absolute; top:0; left:0; opacity:1; transition:opacity 1.5s ease;">
+
+    <img class="fade-slide" src="https://raw.githubusercontent.com/penaluis746-afk/fastfixconstruction/refs/heads/main/work2.jpeg"
+         style="width:100%; height:100%; object-fit:cover; position:absolute; top:0; left:0; opacity:0; transition:opacity 1.5s ease;">
+
+    <img class="fade-slide" src="https://raw.githubusercontent.com/penaluis746-afk/fastfixconstruction/refs/heads/main/image63.jpeg"
+         style="width:100%; height:100%; object-fit:cover; position:absolute; top:0; left:0; opacity:0; transition:opacity 1.5s ease;">
+
+    <img class="fade-slide" src="https://raw.githubusercontent.com/penaluis746-afk/fastfixconstruction/refs/heads/main/image36.jpeg"
+         style="width:100%; height:100%; object-fit:cover; position:absolute; top:0; left:0; opacity:0; transition:opacity 1.5s ease;">
+</section>
+
+<style>
+    /* ⭐ Mobile auto-fit */
+    @media (max-width: 600px) {
+        .fade-slider {
+            height: 220px !important; /* Taller mobile stretch */
+        }
+    }
+</style>
+
+<script>
+    let fadeIndex = 0;
+    const fadeSlides = document.querySelectorAll('.fade-slide');
+
+    function showFadeSlide() {
+        fadeSlides.forEach((img, i) => {
+            img.style.opacity = (i === fadeIndex) ? 1 : 0;
+        });
+
+        fadeIndex = (fadeIndex + 1) % fadeSlides.length;
+    }
+
+    // Auto fade every 4 seconds
+    setInterval(showFadeSlide, 4000);
+</script>
+</section>
+
+<style>
+    /* ⭐ Mobile auto-fit */
+    @media (max-width: 600px) {
+        .fade-slider {
+            height: 220px !important; /* Taller mobile stretch */
+        }
+    }
+</style>
+
+<script>
+    let fadeIndex = 0;
+    const fadeSlides = document.querySelectorAll('.fade-slide');
+
+    function showFadeSlide() {
+        fadeSlides.forEach((img, i) => {
+            img.style.opacity = (i === fadeIndex) ? 1 : 0;
+        });
+
+        fadeIndex = (fadeIndex + 1) % fadeSlides.length;
+    }
+
+    // Auto fade every 4 seconds
+    setInterval(showFadeSlide, 4000);
+</script>
+</section>
+
+<style>
+    /* ⭐ Mobile auto-fit */
+    @media (max-width: 600px) {
+        .fade-slider {
+            height: 220px !important; /* Taller mobile stretch */
+        }
+    }
+</style>
+
+<script>
+    let fadeIndex = 0;
+    const fadeSlides = document.querySelectorAll('.fade-slide');
+
+    function showFadeSlide() {
+        fadeSlides.forEach((img, i) => {
+            img.style.opacity = (i === fadeIndex) ? 1 : 0;
+        });
+
+        fadeIndex = (fadeIndex + 1) % fadeSlides.length;
+    }
+
+    // Auto fade every 4 seconds
+    setInterval(showFadeSlide, 4000);
+</script>
+</section>
+
+<style>
+    /* ⭐ Mobile auto-fit */
+    @media (max-width: 600px) {
+        .fade-slider {
+            height: 200px !important; /* Perfect size for phones */
+        }
+    }
+</style>
+
+<script>
+    let fadeIndex = 0;
+    const fadeSlides = document.querySelectorAll('.fade-slide');
+
+    function showFadeSlide() {
+        fadeSlides.forEach((img, i) => {
+            img.style.opacity = (i === fadeIndex) ? 1 : 0;
+        });
+
+        fadeIndex = (fadeIndex + 1) % fadeSlides.length;
+    }
+
+    // Auto fade every 4 seconds
+    setInterval(showFadeSlide, 4000);
+</script>
+
+</section>
+
+<style>
+    /* Mobile height */
+    @media (max-width: 600px) {
+        .fade-slider {
+            height: 200px !important;
+        }
+    }
+</style>
+
+<script>
+    let fadeIndex = 0;
+    const fadeSlides = document.querySelectorAll('.fade-slide');
+
+    function showFadeSlide() {
+        fadeSlides.forEach((img, i) => {
+            img.style.opacity = (i === fadeIndex) ? 1 : 0;
+        });
+
+        fadeIndex = (fadeIndex + 1) % fadeSlides.length;
+    }
+
+    // Change slide every 4 seconds
+    setInterval(showFadeSlide, 4000);
+</script>
+    </section>
+
+
+    <!-- ⭐ NEW SECTION: CONSTRUCTION TEMPLATE -->
+    <section class="construction-template" style="padding: 55px 0; background: #f7f7f7;">
+
+        <h2 style="text-align:center;">Why Choose Our Construction Services</h2>
+        <p style="text-align:center; max-width:700px; margin:auto;">
+            Built on reliability, craftsmanship, and fast turnaround. Every project is handled with precision and care.
+        </p>
+
+        <div style="
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+            gap: 20px;
+            margin-top: 30px;
+        ">
+
+            <div style="background:white; padding:20px; border-radius:8px; border:1px solid #ddd;">
+                <h3>🔨 General Construction</h3>
+                <p>From framing to finishing, we deliver clean, durable, and professional results on every build.</p>
+            </div>
+
+            <div style="background:white; padding:20px; border-radius:8px; border:1px solid #ddd;">
+                <h3>🏠 Home Remodeling</h3>
+                <p>Modern upgrades, full renovations, and custom improvements tailored to your vision.</p>
+            </div>
+
+            <div style="background:white; padding:20px; border-radius:8px; border:1px solid #ddd;">
+                <h3>🧰 Repairs & Maintenance</h3>
+                <p>Fast, reliable fixes for drywall, flooring, carpentry, and structural issues.</p>
+            </div>
+
+            <div style="background:white; padding:20px; border-radius:8px; border:1px solid #ddd;">
+                <h3>🚪 Custom Carpentry</h3>
+                <p>Precision woodwork, trim, doors, framing, and custom-built features for any space.</p>
+            </div>
+
+            <div style="background:white; padding:20px; border-radius:8px; border:1px solid #ddd;">
+                <h3>🛁 Kitchen & Bath</h3>
+                <p>High‑quality installations, tile work, cabinetry, and modern upgrades built to last.</p>
+            </div>
+
+            <div style="background:white; padding:20px; border-radius:8px; border:1px solid #ddd;">
+                <h3>📐 Project Planning</h3>
+                <p>Clear timelines, transparent communication, and organized project management.</p>
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+<div style="
+    max-width:600px;
+    margin:40px auto;
+    background:#000;
+    border:2px solid #f4c20d;
+    padding:25px;
+    border-radius:10px;
+    text-align:center;
+    color:#fff;
+">
+    <h2 style="color:#f4c20d; margin-bottom:15px;">Contact Us</h2>
+
+    <p style="font-size:20px; margin:10px 0;">
+        <strong>Email:</strong>
+        <a href="mailto:penaluis746@gmail.com" style="color:#f4c20d; text-decoration:none;">
+            penaluis746@gmail.com
+        </a>
+    </p>
+
+    <p style="font-size:20px; margin:10px 0;">
+        <strong>Phone:</strong>
+        <a href="tel:7084381640" style="color:#f4c20d; text-decoration:none;">
+            708-438-1640
+        </a>
+    </p>
+</div>
+
+<div style="
+    max-width:700px;
+    margin:40px auto;
+    background:#000;
+    border:2px solid #f4c20d;
+    padding:30px;
+    border-radius:10px;
+    color:#fff;
+    text-align:center;
+">
+    <h2 style="color:#f4c20d; margin-bottom:10px;">Book an Appointment</h2>
+    <p style="font-size:18px; margin-bottom:25px;">
+        Schedule your service with MIM Construction. Fast response. Professional service.
+    </p>
+
+    <form action="#" method="POST" style="text-align:left; max-width:500px; margin:auto;">
+
+        <label>Name</label>
+        <input type="text" name="name" required
+            style="width:100%; padding:10px; margin:8px 0 15px; border-radius:5px; border:none;">
+
+        <label>Email</label>
+        <input type="email" name="email" required
+            style="width:100%; padding:10px; margin:8px 0 15px; border-radius:5px; border:none;">
+
+        <label>Phone</label>
+        <input type="tel" name="phone" required
+            style="width:100%; padding:10px; margin:8px 0 15px; border-radius:5px; border:none;">
+
+        <label>Preferred Date</label>
+        <input type="date" name="date" required
+            style="width:100%; padding:10px; margin:8px 0 15px; border-radius:5px; border:none;">
+
+        <label>Service Needed</label>
+        <textarea name="message" rows="4" required
+            style="width:100%; padding:10px; margin:8px 0 20px; border-radius:5px; border:none;"></textarea>
+
+        <button type="submit" style="
+            width:100%;
+            padding:12px;
+            background:#f4c20d;
+            color:#000;
+            font-size:18px;
+            font-weight:bold;
+            border:none;
+            border-radius:5px;
+            cursor:pointer;
+        ">
+            Submit Appointment Request
+        </button>
+    </form>
+</div>
+
+</body>
+</html>
